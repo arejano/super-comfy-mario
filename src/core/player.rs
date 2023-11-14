@@ -1,7 +1,7 @@
+use comfy::*;
+
 pub struct Player;
 
-impl Player {
-    pub fn new() -> Self {
-        Self
-    }
+pub fn draw_player() {
+    draw_rect(Vec2::ZERO, Vec2::new(2.0, 2.0), RED, 1);
 }
